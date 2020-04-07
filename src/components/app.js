@@ -1,32 +1,48 @@
-import { h, Component } from 'preact';
-import { Router } from 'preact-router';
+import { Component } from 'preact'
+import { useState } from 'preact/hooks'
 
-import Header from './header';
-
-// Code-splitting is automated for routes
-import Home from '../routes/home';
-import Profile from '../routes/profile';
+import Button from './button'
+import WidgetModal from './widget-modal'
+import Tabs from './tabs'
+import TabList from './tab-list'
+import TabButton from './tab-button'
+import { useContext } from 'preact/compat'
+import { ACTIONS_TABS, TabsStore } from '../store/tabs'
+import TabPanel from './tab-panel'
 
 export default class App extends Component {
-	
-	/** Gets fired when the route changes.
-	 *	@param {Object} event		"change" event from [preact-router](http://git.io/preact-router)
-	 *	@param {string} event.url	The newly routed URL
-	 */
-	handleRoute = e => {
-		this.currentUrl = e.url;
-	};
+  render() {
+    const [isOpen, setIsOpen] = useState()
+    const {state: {tabs, activeTab}, dispatch} = useContext(TabsStore)
 
-	render() {
-		return (
-			<div id="app">
-				<Header />
-				<Router onChange={this.handleRoute}>
-					<Home path="/" />
-					<Profile path="/profile/" user="me" />
-					<Profile path="/profile/:user" />
-				</Router>
-			</div>
-		);
-	}
+    const onClickTab = (tab) => {
+      return e => {
+        e.preventDefault()
+        dispatch({type: ACTIONS_TABS.SET_ACTIVE_TAB, activeTab: tab})
+      }
+    }
+
+    return (
+      <div id="app">
+        <Button onClick={() => setIsOpen(true)}>Upload files</Button>
+
+        <WidgetModal
+          isOpen={isOpen}
+          onClose={() => setIsOpen(false)}
+        >
+          <Tabs>
+            <TabList>
+              {tabs.map((tab) => (
+                <TabButton tab={tab} onClick={onClickTab(tab)} isActive={tab === activeTab}>
+                  {tab}
+                </TabButton>
+              ))}
+            </TabList>
+
+            <TabPanel activeTab={activeTab} />
+          </Tabs>
+        </WidgetModal>
+      </div>
+    )
+  }
 }
