@@ -1,5 +1,7 @@
 import { createContext, useEffect, useReducer, useState } from 'preact/compat'
 
+export const AVAILABLE_LOCALES = ['ru', 'en']
+
 export const ACTIONS_LOCALE = {
   SET_LOCALE: 'set-locale',
   SET_LANG: 'set-lang',
@@ -18,18 +20,16 @@ const reducer = (state, {type, locale, lang}) => {
   }
 }
 
-export const AVAILABLE_LOCALES = ['ru', 'en']
-
-const defaultInitialState = {
-  lang: 'en',
-}
-
 const getTranslate = (locale) => key => {
   return locale[key] || key
 }
 
 const loadLocale = (lang) => {
   return import(`../locale/${lang}`)
+}
+
+const defaultInitialState = {
+  lang: 'en',
 }
 
 const LocaleStoreProvider = ({
