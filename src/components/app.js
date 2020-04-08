@@ -1,12 +1,11 @@
 import { Component } from 'preact'
-import { useState } from 'preact/hooks'
 
 import Button from './button'
 import WidgetModal from './widget-modal'
 import Tabs from './tabs'
 import TabList from './tab-list'
 import TabButton from './tab-button'
-import { useContext } from 'preact/compat'
+import { useContext, useState } from 'preact/compat'
 import { ACTIONS_TABS, TabsStore } from '../store/tabs'
 import TabPanel from './tab-panel'
 
