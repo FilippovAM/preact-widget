@@ -24,8 +24,9 @@ const getTranslate = (locale) => key => {
   return locale[key] || key
 }
 
-const loadLocale = (lang) => {
-  return import(`../locale/${lang}`)
+const loadLocale = async (lang) => {
+  const locale = await import(`../locale/${lang}`)
+  return locale.default
 }
 
 const defaultInitialState = {
@@ -37,13 +38,21 @@ const LocaleStoreProvider = ({
                                initialState = defaultInitialState
                              }) => {
   const [isInit, setIsInit] = useState(true)
-
   const [state, dispatch] = useReducer(reducer, initialState)
   const value = {state, dispatch}
 
   useEffect(async () => {
-    const locale = await loadLocale(state.lang)
-    dispatch({type: ACTIONS_LOCALE.SET_LOCALE, locale: locale.default})
+    let locale = await loadLocale(state.lang)
+    const hasCustomLocale = !!initialState.locales
+
+    if (hasCustomLocale) {
+      locale = {
+        ...locale,
+        ...initialState.locales[state.lang]
+      }
+    }
+
+    dispatch({type: ACTIONS_LOCALE.SET_LOCALE, locale})
 
     if (isInit) {
       setIsInit(false)

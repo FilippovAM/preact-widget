@@ -9,7 +9,15 @@ const App = () => {
     activeTab: TabsEnum.FACEBOOK
   }
   const dummyInitialLocale = {
-    lang: 'en'
+    lang: 'en',
+    locales: {
+      ru: {
+        'Upload files': 'Моя локаль - загрузить файлы'
+      },
+      en: {
+        'Upload files': 'Custom locale - загрузить файлы'
+      }
+    }
   }
 
   return (
