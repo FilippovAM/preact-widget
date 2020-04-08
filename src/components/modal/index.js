@@ -1,5 +1,6 @@
 import style from './style.css'
 import ModalWrapper from './wrapper'
+import CloseIcon from './assets/close.svg'
 
 const Modal = ({children, onClose, isOpen}) => (
   children({
@@ -15,7 +16,7 @@ const Modal = ({children, onClose, isOpen}) => (
     ),
     CloseButton: props => (
       <button class={style.closeButton} onClick={onClose} {...props}>
-        x
+        <CloseIcon />
       </button>
     )
   })
