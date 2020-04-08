@@ -8,11 +8,14 @@ import TabButton from './tab-button'
 import { useContext, useState } from 'preact/compat'
 import { ACTIONS_TABS, TabsStore } from '../store/tabs'
 import TabPanel from './tab-panel'
+import { LocaleStore } from '../store/locale'
+import LanguageSelect from './language-select'
 
 export default class App extends Component {
   render() {
     const [isOpen, setIsOpen] = useState()
     const {state: {tabs, activeTab}, dispatch} = useContext(TabsStore)
+    const {state: {translate: t}} = useContext(LocaleStore)
 
     const onClickTab = (tab) => {
       return e => {
@@ -23,7 +26,8 @@ export default class App extends Component {
 
     return (
       <div id="app">
-        <Button onClick={() => setIsOpen(true)}>Upload files</Button>
+        <Button onClick={() => setIsOpen(true)}>{t('Upload files')}</Button>
+        <LanguageSelect />
 
         <WidgetModal
           isOpen={isOpen}

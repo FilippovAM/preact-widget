@@ -38,13 +38,15 @@ const reducer = (state, {type, tabs, activeTab}) => {
   }
 }
 
+const defaultInitialState = {
+  tabs: Object.values(TabsEnum),
+  activeTab: TabsEnum.FILE
+}
+
 const TabsStoreProvider = ({
-                               children,
-                               initialState = {
-                                 tabs: Object.values(TabsEnum),
-                                 activeTab: TabsEnum.FILE
-                               }
-                             }) => {
+                             children,
+                             initialState = defaultInitialState
+                           }) => {
   const [state, dispatch] = useReducer(reducer, initialState)
   const value = {state, dispatch}
 
