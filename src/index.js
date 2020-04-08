@@ -12,10 +12,10 @@ const App = () => {
     lang: 'en',
     locales: {
       ru: {
-        'Upload files': 'Моя локаль - загрузить файлы'
+        'Upload files': 'Локаль пользователя - загрузить файлы'
       },
       en: {
-        'Upload files': 'Custom locale - загрузить файлы'
+        'Upload files': 'User locale - upload files'
       }
     }
   }
