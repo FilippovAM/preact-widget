@@ -20,6 +20,10 @@
 	box-shadow: inset 0 0 0 3px rgba(0, 100, 255, 0.5);
 }
 
+.tabButton:hover svg {
+	color: #fff;
+}
+
 .isActive {
 	background-color: white;
 	color: #333;
