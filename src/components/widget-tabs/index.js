@@ -36,7 +36,6 @@ const WidgetTabs = props => {
           </TabButton>
         ))}
       </TabList>
-
       <TabPanel activeTab={activeTab} />
     </Tabs>
   )
