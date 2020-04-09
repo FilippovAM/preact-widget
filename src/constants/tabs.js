@@ -1,0 +1,16 @@
+export const TabsEnum = {
+  FILE: 'file',
+  CAMERA: 'camera',
+  URL: 'url',
+  FACEBOOK: 'facebook',
+  GOOGLE_DRIVE: 'google-drive',
+  GOOGLE_PHOTOS: 'google-photos',
+  DROPBOX: 'dropbox',
+  INSTAGRAM: 'instagram',
+  EVERNOTE: 'evernote',
+  FLICKR: 'flickr',
+  ONEDRIVE: 'onedrive',
+  BOX: 'box',
+  VK: 'vk',
+  HUDDLE: 'huddle',
+}

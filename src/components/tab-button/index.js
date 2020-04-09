@@ -1,6 +1,6 @@
 import style from './style.css'
 import * as TabIcons from '../tab-icons'
-import { TabsEnum } from '../../store/tabs'
+import { TabsEnum } from '../../constants/tabs'
 
 const getTabIconById = id => {
   switch (id) {

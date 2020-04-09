@@ -1,7 +1,7 @@
 import './style'
 import WidgetApp from './components/app'
-import TabsStoreProvider, { TabsEnum } from './store/tabs'
 import LocaleStoreProvider from './store/locale'
+import { TabsEnum } from './constants/tabs'
 
 const App = () => {
   const dummyInitialTabs = {
@@ -22,9 +22,7 @@ const App = () => {
 
   return (
     <LocaleStoreProvider initialState={dummyInitialLocale}>
-      <TabsStoreProvider initialState={dummyInitialTabs}>
-        <WidgetApp />
-      </TabsStoreProvider>
+      <WidgetApp {...dummyInitialTabs} />
     </LocaleStoreProvider>
   )
 }

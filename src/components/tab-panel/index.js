@@ -1,6 +1,6 @@
 import style from './style.css'
 import { lazy, Suspense } from 'preact/compat'
-import { TabsEnum } from '../../store/tabs'
+import { TabsEnum } from '../../constants/tabs'
 
 const imports = {
   [TabsEnum.FILE]: lazy(() => import('./file')),
