@@ -4,11 +4,9 @@ import LocaleStoreProvider from './store/locale'
 import { TabsEnum } from './constants/tabs'
 
 const App = () => {
-  const dummyInitialTabs = {
+  const dummyProps = {
     tabs: [TabsEnum.CAMERA, TabsEnum.FILE, TabsEnum.DROPBOX, TabsEnum.FACEBOOK],
-    activeTab: TabsEnum.FACEBOOK
-  }
-  const dummyInitialLocale = {
+    activeTab: TabsEnum.FACEBOOK,
     lang: 'en',
     locales: {
       ru: {
@@ -21,8 +19,8 @@ const App = () => {
   }
 
   return (
-    <LocaleStoreProvider initialState={dummyInitialLocale}>
-      <WidgetApp {...dummyInitialTabs} />
+    <LocaleStoreProvider initialState={{lang: dummyProps.lang, locales: dummyProps.locales}}>
+      <WidgetApp tabs={dummyProps.tabs} activeTab={dummyProps.activeTab} />
     </LocaleStoreProvider>
   )
 }
