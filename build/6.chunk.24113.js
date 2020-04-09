@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{"/shy":function(t,n,a){"use strict";a.r(n),function(t){var s=a("l8WD"),e=a("Vsfx");n.default=function(){var n=Object(s.e)(e.c);return t("h2",null,(0,n.state.translate)("Camera tab"))}}.call(this,a("hosL").h)}}]);
+//# sourceMappingURL=6.chunk.24113.js.map

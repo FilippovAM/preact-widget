@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[14],{"5rcE":function(t,n,s){"use strict";s.r(n),function(t){var a=s("l8WD"),c=s("Vsfx");n.default=()=>{const{state:{translate:n}}=Object(a.e)(c.c);return t("h2",null,n("Instagram tab"))}}.call(this,s("hosL").h)}}]);
+//# sourceMappingURL=14.chunk.abad9.esm.js.map

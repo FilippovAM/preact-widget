@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{uSvx:function(t,n,s){"use strict";s.r(n),function(t){var o=s("l8WD"),a=s("Vsfx");n.default=()=>{const{state:{translate:n}}=Object(o.e)(a.c);return t("h2",null,n("Dropbox tab"))}}.call(this,s("hosL").h)}}]);
+//# sourceMappingURL=7.chunk.15cb1.esm.js.map

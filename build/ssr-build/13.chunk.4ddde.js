@@ -1,0 +1,2 @@
+exports.ids=[13],exports.modules={"5rcE":function(t,e,r){"use strict";r.r(e),function(t){var s=r("l8WD"),a=r("Vsfx");e.default=function(){var e=Object(s.e)(a.c).state.translate;return t("h2",null,e("Instagram tab"))}}.call(this,r("HteQ").h)}};
+//# sourceMappingURL=13.chunk.4ddde.js.map

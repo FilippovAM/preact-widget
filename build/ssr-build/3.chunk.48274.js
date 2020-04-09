@@ -1,0 +1,2 @@
+exports.ids=[3],exports.modules={Pwt8:function(t,l,e){"use strict";e.r(l),function(t){var a=e("HlVv"),n=e("tTck"),s=e.n(n),c=e("l8WD"),i=e("Vsfx");l.default=function(l){var e=l.onClick,n=Object(c.e)(i.c).state.translate;return t("div",{class:s.a.panel},t("h2",{class:s.a.title},n("drag & drop any files")),t("p",null,n("or")),t(a.a,{onClick:e},n("Chose a local file")))}}.call(this,e("HteQ").h)},tTck:function(t,l,e){t.exports={panel:"panel__2Eept",title:"title__wxGJU"}}};
+//# sourceMappingURL=3.chunk.48274.js.map

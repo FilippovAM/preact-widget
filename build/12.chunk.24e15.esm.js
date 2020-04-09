@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{O4rl:function(t,n,o){"use strict";o.r(n),function(t){var s=o("l8WD"),e=o("Vsfx");n.default=()=>{const{state:{translate:n}}=Object(s.e)(e.c);return t("h2",null,n("Google-photos tab"))}}.call(this,o("hosL").h)}}]);
+//# sourceMappingURL=12.chunk.24e15.esm.js.map

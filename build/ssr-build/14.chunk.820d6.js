@@ -1,0 +1,2 @@
+exports.ids=[14],exports.modules={lBEV:function(t,e,n){"use strict";n.r(e),function(t){var r=n("l8WD"),s=n("Vsfx");e.default=function(){var e=Object(r.e)(s.c).state.translate;return t("h2",null,e("OneDrive tab"))}}.call(this,n("HteQ").h)}};
+//# sourceMappingURL=14.chunk.820d6.js.map

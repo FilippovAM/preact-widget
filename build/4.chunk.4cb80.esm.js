@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{Pwt8:function(t,l,n){"use strict";n.r(l),function(t){var a=n("HlVv"),e=n("tTck"),s=n.n(e),c=n("l8WD"),o=n("Vsfx");l.default=({onClick:l})=>{const{state:{translate:n}}=Object(c.e)(o.c);return t("div",{class:s.a.panel},t("h2",{class:s.a.title},n("drag & drop any files")),t("p",null,n("or")),t(a.a,{onClick:l},n("Chose a local file")))}}.call(this,n("hosL").h)},tTck:function(t){t.exports={panel:"panel__2Eept",title:"title__wxGJU"}}}]);
+//# sourceMappingURL=4.chunk.4cb80.esm.js.map

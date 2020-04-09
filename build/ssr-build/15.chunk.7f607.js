@@ -1,0 +1,2 @@
+exports.ids=[15],exports.modules={"35yq":function(t,e,r){"use strict";r.r(e),function(t){var s=r("l8WD"),l=r("Vsfx");e.default=function(){var e=Object(s.e)(l.c).state.translate;return t("h2",null,e("Url tab"))}}.call(this,r("HteQ").h)}};
+//# sourceMappingURL=15.chunk.7f607.js.map

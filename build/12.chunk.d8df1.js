@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{O4rl:function(t,n,o){"use strict";o.r(n),function(t){var s=o("l8WD"),a=o("Vsfx");n.default=function(){var n=Object(s.e)(a.c);return t("h2",null,(0,n.state.translate)("Google-photos tab"))}}.call(this,o("hosL").h)}}]);
+//# sourceMappingURL=12.chunk.d8df1.js.map

@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{p9Ky:function(t,n,a){"use strict";a.r(n),function(t){var e=a("l8WD"),s=a("Vsfx");n.default=function(){var n=Object(e.e)(s.c);return t("h2",null,(0,n.state.translate)("Huddle tab"))}}.call(this,a("hosL").h)}}]);
+//# sourceMappingURL=13.chunk.f1e74.js.map

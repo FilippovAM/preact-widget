@@ -1,0 +1,2 @@
+exports.ids=[8],exports.modules={GWkJ:function(t,e,s){"use strict";s.r(e),function(t){var a=s("l8WD"),n=s("Vsfx");e.default=function(){var e=Object(a.e)(n.c).state.translate;return t("h2",null,e("Facebook tab"))}}.call(this,s("HteQ").h)}};
+//# sourceMappingURL=8.chunk.46df7.js.map

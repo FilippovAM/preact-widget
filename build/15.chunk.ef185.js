@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[15],{lBEV:function(n,t,e){"use strict";e.r(t),function(n){var a=e("l8WD"),s=e("Vsfx");t.default=function(){var t=Object(a.e)(s.c);return n("h2",null,(0,t.state.translate)("OneDrive tab"))}}.call(this,e("hosL").h)}}]);
+//# sourceMappingURL=15.chunk.ef185.js.map

@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[15],{lBEV:function(t,n,e){"use strict";e.r(n),function(t){var s=e("l8WD"),a=e("Vsfx");n.default=()=>{const{state:{translate:n}}=Object(s.e)(a.c);return t("h2",null,n("OneDrive tab"))}}.call(this,e("hosL").h)}}]);
+//# sourceMappingURL=15.chunk.9f6dc.esm.js.map

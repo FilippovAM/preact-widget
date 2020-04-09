@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{onVg:function(t,n,e){"use strict";e.r(n),function(t){var s=e("l8WD"),o=e("Vsfx");n.default=()=>{const{state:{translate:n}}=Object(s.e)(o.c);return t("h2",null,n("Evernote tab"))}}.call(this,e("hosL").h)}}]);
+//# sourceMappingURL=8.chunk.df863.esm.js.map

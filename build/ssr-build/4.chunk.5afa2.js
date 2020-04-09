@@ -1,0 +1,2 @@
+exports.ids=[4],exports.modules={wTtz:function(t,e,s){"use strict";s.r(e),function(t){var n=s("l8WD"),r=s("Vsfx");e.default=function(){var e=Object(n.e)(r.c).state.translate;return t("h2",null,e("Box tab"))}}.call(this,s("HteQ").h)}};
+//# sourceMappingURL=4.chunk.5afa2.js.map

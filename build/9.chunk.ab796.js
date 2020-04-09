@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{GWkJ:function(t,n,a){"use strict";a.r(n),function(t){var c=a("l8WD"),e=a("Vsfx");n.default=function(){var n=Object(c.e)(e.c);return t("h2",null,(0,n.state.translate)("Facebook tab"))}}.call(this,a("hosL").h)}}]);
+//# sourceMappingURL=9.chunk.ab796.js.map

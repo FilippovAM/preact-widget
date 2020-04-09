@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[17],{oa4G:function(t,n,s){"use strict";s.r(n),function(t){var a=s("l8WD"),c=s("Vsfx");n.default=()=>{const{state:{translate:n}}=Object(a.e)(c.c);return t("h2",null,n("Vk tab"))}}.call(this,s("hosL").h)}}]);
+//# sourceMappingURL=17.chunk.9df7d.esm.js.map

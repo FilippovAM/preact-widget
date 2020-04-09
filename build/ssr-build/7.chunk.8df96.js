@@ -1,0 +1,2 @@
+exports.ids=[7],exports.modules={onVg:function(t,e,n){"use strict";n.r(e),function(t){var r=n("l8WD"),s=n("Vsfx");e.default=function(){var e=Object(r.e)(s.c).state.translate;return t("h2",null,e("Evernote tab"))}}.call(this,n("HteQ").h)}};
+//# sourceMappingURL=7.chunk.8df96.js.map

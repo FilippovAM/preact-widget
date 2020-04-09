@@ -1,0 +1,2 @@
+exports.ids=[5],exports.modules={"/shy":function(t,e,s){"use strict";s.r(e),function(t){var a=s("l8WD"),r=s("Vsfx");e.default=function(){var e=Object(a.e)(r.c).state.translate;return t("h2",null,e("Camera tab"))}}.call(this,s("HteQ").h)}};
+//# sourceMappingURL=5.chunk.5276a.js.map

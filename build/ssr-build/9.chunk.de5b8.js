@@ -1,0 +1,2 @@
+exports.ids=[9],exports.modules={oBHq:function(t,e,r){"use strict";r.r(e),function(t){var s=r("l8WD"),l=r("Vsfx");e.default=function(){var e=Object(s.e)(l.c).state.translate;return t("h2",null,e("Flickr tab"))}}.call(this,r("HteQ").h)}};
+//# sourceMappingURL=9.chunk.de5b8.js.map

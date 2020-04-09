@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{"1hKq":function(t,n,e){"use strict";e.r(n),function(t){var s=e("l8WD"),o=e("Vsfx");n.default=()=>{const{state:{translate:n}}=Object(s.e)(o.c);return t("h2",null,n("Google-drive tab"))}}.call(this,e("hosL").h)}}]);
+//# sourceMappingURL=11.chunk.1b1dc.esm.js.map

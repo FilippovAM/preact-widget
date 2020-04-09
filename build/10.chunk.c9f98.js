@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{oBHq:function(t,n,a){"use strict";a.r(n),function(t){var c=a("l8WD"),s=a("Vsfx");n.default=function(){var n=Object(c.e)(s.c);return t("h2",null,(0,n.state.translate)("Flickr tab"))}}.call(this,a("hosL").h)}}]);
+//# sourceMappingURL=10.chunk.c9f98.js.map

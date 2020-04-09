@@ -1,0 +1,2 @@
+exports.ids=[16],exports.modules={oa4G:function(t,e,s){"use strict";s.r(e),function(t){var a=s("l8WD"),n=s("Vsfx");e.default=function(){var e=Object(a.e)(n.c).state.translate;return t("h2",null,e("Vk tab"))}}.call(this,s("HteQ").h)}};
+//# sourceMappingURL=16.chunk.b10d9.js.map

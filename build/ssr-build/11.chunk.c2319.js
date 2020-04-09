@@ -1,0 +1,2 @@
+exports.ids=[11],exports.modules={O4rl:function(t,e,s){"use strict";s.r(e),function(t){var l=s("l8WD"),o=s("Vsfx");e.default=function(){var e=Object(l.e)(o.c).state.translate;return t("h2",null,e("Google-photos tab"))}}.call(this,s("HteQ").h)}};
+//# sourceMappingURL=11.chunk.c2319.js.map
